@@ -1,0 +1,57 @@
+body {
+    margin-left:auto;
+	margin-right:auto;
+    background-color:  hsl(213, 73%, 97%);
+}
+@media(max-width: 768px) {
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }
+}
+.mobile{
+    background-color:hsl(212, 45%, 89%);
+    margin:60px;
+    padding:5%;
+    
+}
+.div-card {
+    background-color:hsl(0, 0%, 100%);
+    border-radius:15px;
+    text-align: center;
+    width:280px;
+    align-items: center;
+    margin-left:auto;
+	margin-right:auto;
+    display:flex;
+    flex-direction:column;
+}
+.card-body{
+    padding:10px 20px 20px;
+}
+.card-title {
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size:18px;
+    margin:5%;
+}
+.card-text {
+    color:  hsl(220, 15%, 55%);
+    font-size:15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    
+}
+.card-img-top{
+    width: 250px;
+    height: 250px;
+    margin:5%;
+    border-radius:15px;
+    align-items: center;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
